@@ -39,7 +39,7 @@ jobs:
 
       - name: Flake8 static code analysis
         run:
-          black nest_asyncio.py
+          black --fast nest_asyncio.py
 
       - name: TestNest
         run: |
